@@ -43,8 +43,8 @@ export default function ChecklistPage() {
 
       {/* Content */}
       <div className="relative z-10 px-4 py-12">
-        <div className="max-w-4xl mx-auto bg-white/80 backdrop-blur-md rounded-lg p-8 shadow-lg">
-          <h2 className="text-3xl font-extrabold text-teal-700 mb-8 text-center">
+        <div className="max-w-4xl mx-auto bg-white/80 rounded-lg p-8 shadow-lg opacity-80">
+          <h2 className="text-4xl font-mono font-bold text-blue-800 mb-8 text-center">
             Move to Mauritius: Checklist
           </h2>
 
