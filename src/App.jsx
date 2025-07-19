@@ -17,6 +17,9 @@ import FishLife from "./components/pages/fishlife";
 import ThingsToDo from "./components/pages/thingstodo";
 import Snorkeling from "./components/pages/bestsnorkel";
 import Wildlife from "./components/pages/wildlife";
+import Beaches from "./components/pages/beaches";
+import Cuisine from "./components/pages/cuisine";
+import Housing from "./components/pages/housing";
 
 export default function App() {
   return (
@@ -38,6 +41,9 @@ export default function App() {
       <Route path="/about/things-to-do" element={<ThingsToDo />} />
       <Route path="/about/snorkeling" element={<Snorkeling />} />
       <Route path="/about/wildlife" element={<Wildlife />} />
+      <Route path="/about/beaches" element={<Beaches />} />
+      <Route path="/about/cuisine" element={<Cuisine />} />
+      <Route path="/about/housing" element={<Housing />} />
 
       </Routes>
     </>

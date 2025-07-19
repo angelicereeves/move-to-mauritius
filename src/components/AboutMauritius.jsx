@@ -48,6 +48,21 @@ const cardData = [
     text: "Spot giant tortoises, flying foxes (fruit bats), colorful geckos, and over 100 bird species like the pink pigeon.",
     route: "/about/wildlife",
   },
+  {
+    title: "🏖️ Beaches",
+    text: "Famous beaches include Belle Mare, Trou aux Biches, and Le Morne. Each offers unique beauty, from white sands to turquoise waters.",
+    route: "/about/beaches",
+  },
+  { 
+    title: "🍽️ Local Cuisine",
+    text: "Savor Creole dishes like dholl puri, rougaille, and seafood curries. Don’t miss street food stalls for authentic flavors.",
+    route: "/about/cuisine"
+  },
+  {
+    title: "🏡 Housing",
+    text: "Housing options range from luxury villas to budget-friendly guesthouses. Popular areas include Grand Baie, Flic en Flac, and Port Louis.",
+    route: "/about/housing"
+  }
 ];
 
 export default function AboutMauritius() {
