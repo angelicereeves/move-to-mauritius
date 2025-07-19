@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="text-4xl font-extrabold font-mono mb-4 text-yellow-300 drop-shadow-lg">
           Ready to Move to Paradise?
         </h2>
-        <p className="text-lg font-mono mb-6 max-w-xl text-white/90">
+        <p className="text-lg font-mono font-extrabold mb-6 max-w-xl text-white/90">
           This app will help you plan every step of your move to Mauritius — from booking flights and preparing pets, to sorting out legal paperwork and housing.
         </p>
         <Link
